@@ -688,17 +688,7 @@ body.nav-active { overflow: hidden; }
   line-height: 1; /* Adjust spacing between lines, experiment with different values */
 }
 
-@media (max-width: 768px) {
-            .t1 {
-  all: unset;
-  margin: 0;
-  font-family: 'Forum', cursive;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-size: 20px; /* Adjust size as needed */
-  color: #fff; /* White color for main text */
-}
-        }
+
 
 .t1 {
   all: unset;
