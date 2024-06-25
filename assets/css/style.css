@@ -660,7 +660,7 @@ body.nav-active { overflow: hidden; }
             display: none;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 768px) {
             #mobbr {
                 display: block;
             }
@@ -687,6 +687,18 @@ body.nav-active { overflow: hidden; }
   align-items: flex-start; /* Align text to the start (left) */
   line-height: 1; /* Adjust spacing between lines, experiment with different values */
 }
+
+@media (max-width: 768px) {
+            .t1 {
+  all: unset;
+  margin: 0;
+  font-family: 'Forum', cursive;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 20px; /* Adjust size as needed */
+  color: #fff; /* White color for main text */
+}
+        }
 
 .t1 {
   all: unset;
