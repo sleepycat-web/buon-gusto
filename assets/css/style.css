@@ -656,6 +656,16 @@ body.nav-active { overflow: hidden; }
 
 
 
+  #mobbr {
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+            #mobbr {
+                display: block;
+            }
+        }
+
 #flexdiv {
   display: flex;
   align-items: center;
